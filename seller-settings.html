@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="seller-settings.css" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <img class="logo" src="/css/logo.png" />
+        <a href="#home">Home</a>
+        <a href="panel.html" class="active"> Panel</a>
+        <a href="#contact">Contact Us</a>
+    
+        <p>Rohan Hussain<br> Admin</p>
+        <input type="button" class="logout_button" value="Logout" />
+        <input type="button" class="notif" value="" />
+        <div class="container">
+            <img src="/css/admin_panel/ellipse.png" id="ellipse" />
+        </div>
+    </div>
+    <div class="memory">
+        <span>Seller Panel/</span>
+        <span class="current-page">View All Orders</span>
+    </div>
+    <br>
+    <span>
+        <a id=back-btn><img src=/css/back.png width="26"></a>
+        <h1 id="page-title">Account Settings</h1>
+    </span>
+    <br><br>
+    <span>
+        <table id="dp-name-email-table" style="width: 100%;">
+        <tr>
+            <td class="cell" width="20%">
+                <div class="rectangle">
+                    <!-- <img src="/css/profile-picture.png" class="profile-picture"> -->
+                    <!-- <div class="overlay">Add Profile Picture</div> -->
+                    <img class="profile-picture" src="/css/profile-picture.png" />
+                    <p class="img__description">Add Profile Picture</p>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label class="seller-name">Name:</label>
+                    <input class="seller-name">
+                    <br><br>
+                    <label class="seller-email">Email:</label>
+                    <input class="seller-email">
+                </div>
+                </td>
+            </tr>
+        </table>
+    </span>
+    <br>
+    <span>
+        <label id=c-pwd-label>Current Password:</label>
+        <label id=n-pwd-label>New Password:</label>
+    </span>
+    <span>
+        <input id="c-pwd-pwd">
+        <input id="n-pwd-pwd">
+    </span>
+    <br><br>
+    <span>
+        <label>Location:</label>
+        <input id="seller-location">
+    </span>
+    <br><br>
+    <span>
+        <label>Bio:</label>
+        <input id="seller-bio">
+    </span>
+    <br><br>
+    <span>
+        <p id="seller-cnic">CNIC: 39431-3975813-6</p>
+    </span>
+    <span>
+        <input type="button" id="submit-button" value="Submit" />
+    </span>
+    <div class="main-footer">
+        <p>Copyright &copy Apnay Rung 2021 <span class="footer_span">|</span> WhatsApp: 03214466789 <span
+                class="footer_span">|</span>
+            Email: <a href="mailto:apnayrung@gmail.com">apnayrung@gmail.com</a></p>
+    </div>
+</body>
+
+</html>
